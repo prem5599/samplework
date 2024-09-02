@@ -1,0 +1,305 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 100px;
+    position: absolute;
+
+}
+
+.logo2 {
+    color: rgb(251, 57, 57);
+
+}
+.logo:hover{
+    cursor: pointer;
+}
+.nav1 {
+    display: inline-block;
+    border: 3px white solid;
+    height: 60px;
+    margin-top: -20px;
+}
+
+.nave {
+    display: inline-block;
+    list-style: none;
+    margin-left: 900px;
+    position: relative;
+    top: 37px;
+}
+
+.navlist {
+    display: inline-block;
+    padding-left: 20px;
+    color: rgb(118, 118, 116);
+    font-weight: bold;
+
+
+}
+
+.navlist:hover {
+    color: rgb(224, 18, 18);
+    cursor: pointer;
+}
+
+.image1 {
+    height: 110vh;
+    width: 98.9vw;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.bannerh1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    position: absolute;
+    bottom: 300px;
+    left: 350px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: black;
+}
+
+.bannerp {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    position: absolute;
+    bottom: 225px;
+    left: 29%;
+    font-size: 20px;
+    font-weight: 450;
+    color: black;
+
+}
+
+.inp1 {
+    position: absolute;
+    bottom: 100px;
+    left: 23%;
+    right: 23%;
+}
+
+.need {
+    display: inline-block;
+    height: 50px;
+    width: 350px;
+    font-size: medium;
+    padding-left: 10px;
+    outline: none;
+    border: 1px white solid;
+
+}
+
+.location {
+    display: inline-block;
+    height: 50px;
+    width: 350px;
+    font-size: medium;
+    padding-left: 10px;
+    outline: none;
+    border: 1px white solid;
+
+}
+
+.searchbtn {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    height: 52px;
+    width: 150px;
+    background: red;
+    border: none;
+    outline: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+.searchbtn:hover {
+    background-color: rgb(246, 32, 32);
+    cursor: pointer;
+}
+
+.emoji1 {
+    font-size: px;
+}
+
+.boxcontainer{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 900px;
+    left: 10%;
+    right: 10%;
+}
+
+.box1 {
+    margin: 30px;
+    height: 28vh;
+    width: 14vw;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.restaurent,.destination, .hotels, .healthcare, .automotion{
+    margin: 30px 20% 50px 20%;
+
+}
+.box1:hover{
+    background-color: rgb(254, 71, 71);
+    transition-delay: 250ms;
+    cursor: pointer;
+    color: white;
+}
+.box1p{
+    text-align: center;
+    margin-top: 5px;
+    font-weight:bolder;
+}
+.box1h3{
+    text-align: center;
+    margin-top: -40px;
+}
+.cont1{
+    margin-top: 300px;
+}
+.cont1h2, .cont1p{
+    text-align: center;
+}
+.cont1p{
+    margin-top: 15px;
+}
+.boxcontainer1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(118, 118, 116);
+    
+
+}
+.box2{
+    text-align: center;
+    height: 50vh;
+    width: 25vw;
+    border: 2px black solid;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px rgb(194, 192, 192) solid;
+}
+.box2:hover{
+    background-color: rgb(254, 71, 71);
+    transition-delay: 250ms;
+    cursor: pointer;
+    color: white;
+}
+.svg1{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.box2btn{
+    margin: 20px 0px 10px 10px;
+    height: 47px;
+    width: 150px;
+    background: white;
+    border: 0.1px black solid;
+    outline: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.box2btn:hover{
+    background-color: rgb(254, 71, 71);
+    color: white;
+    border-color: white;
+    
+}
+.emailcont{
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgba(204, 202, 202, 0.171);
+    padding: 100px 0px 100px 0px;
+}
+.emailconth2 {
+
+    margin-bottom: 20px;
+}
+.emailcontp{
+    margin-top: 80px;
+}
+.emailinp{
+    display: inline-block;
+    height: 50px;
+    width: 350px;
+    font-size: medium;
+    padding-left: 10px;
+    border: 1px rgb(122, 120, 120) solid;
+    margin-top: 70px;
+}
+footer{
+    display: inline-block;
+    height: 300px;
+}
+.footlogo {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 400px;
+    font-size: 100px;
+
+}
+
+.footlogo2 {
+    color: rgb(251, 57, 57);
+
+}
+.copyrights{
+    margin-left: 500px;
+}
+.socialmedia{
+    position: relative; 
+    left: 80px;
+    top: -130px;
+    display: inline-block;
+    
+}
+.insta, .facebook, .twitter, .phonenum{
+    margin-right: 70px;
+    margin-top: 10px;
+}
+.phonenum:hover{
+    color: rgb(251, 57, 57);
+    cursor: pointer;
+}
+.twitter:hover {
+    color: rgb(251, 57, 57);
+    cursor: pointer;
+}
+.facebook:hover{
+    color: rgb(251, 57, 57);
+    cursor: pointer;
+}
+.insta:hover {
+    color: rgb(251, 57, 57);
+    cursor: pointer;
+}
+
+.vertical-line {
+    border-left: 2px solid rgb(159, 159, 159); 
+    height: 150px; 
+    margin-top: -200px;
+    margin-left: 850px; 
+    margin-bottom: 100px;
+    display: inline-block; 
+}
+    
